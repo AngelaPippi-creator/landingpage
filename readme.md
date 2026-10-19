@@ -1,4 +1,4 @@
-# 🌿 GreenNest — Landing Page
+# 𖤐⭒๋࣭⭑ 𝔊𝔬𝔱𝔥 𝔩𝔦𝔣𝔢 — Landing Page
 
 Landing page desenvolvida como exemplo didático para a disciplina de
 **Desenvolvimento de Sistemas** (Web Design) — IFSC Câmpus Chapecó.

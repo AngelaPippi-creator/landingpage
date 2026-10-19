@@ -22,7 +22,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Apple Chancery;
     background: var(--escuro);
     color: var(--Cinzaclaro);
     /* var(): usa a variável declarada acima — mude ali, muda tudo */
@@ -92,7 +92,7 @@ nav a:hover {
     /* 4 colunas iguais — o grid se adapta sozinho */
     gap: 24px;                     /* espaçamento entre os cards */
     list-style: none;              /* tira as bolinhas da lista */
-    padding: 40px;
+    padding: 45px;
 }
 
 .card {
