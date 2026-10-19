@@ -13,17 +13,18 @@
 
 /* ---------- VARIÁVEIS: a paleta em um só lugar ---------- */
 :root {
-    --verde: #10B981;      /* cor principal da marca */
-    --roxo: #7C3AED;       /* cor de apoio */
-    --ciano: #00D4FF;      /* destaque do CTA */
-    --escuro: #0D0D1A;     /* fundo escuro */
-    --claro: #F8FAFC;      /* texto claro */
+    --Cinzaclaro: #D8DCD6;      /* texto claro */
+    --LilásAcinzentado: #99749e;      /* cor principal da marca */
+    --RoxoAnemico: #865879;      /* destaque do CTA */
+    --roxoAmeixa: #69356b;       /* cor de apoio */
+    --escuro: #1E151E;     /* fundo escuro */
+
 }
 
 body {
     font-family: Arial, sans-serif;
     background: var(--escuro);
-    color: var(--claro);
+    color: var(--Cinzaclaro);
     /* var(): usa a variável declarada acima — mude ali, muda tudo */
 }
 
@@ -36,17 +37,17 @@ header {
     position: sticky;              /* fica FIXO ao rolar a página */
     top: 0;
     background: var(--escuro);
-    border-bottom: 1px solid var(--roxo);
+    border-bottom: 1px solid var(--roxoAmeixa);
 }
 
 nav a {
-    color: var(--claro);
+    color: var(--Cinzaclaro);
     text-decoration: none;         /* tira o sublinhado do link */
     margin-left: 24px;
 }
 
 nav a:hover {
-    color: var(--ciano);           /* muda a cor ao passar o mouse */
+    color: var(--RoxoAnemico);           /* muda a cor ao passar o mouse */
 }
 
 /* ---------- HERO: ocupa a tela inteira ---------- */
@@ -71,7 +72,7 @@ nav a:hover {
 /* ---------- CTA: o botão que converte ---------- */
 .botao-cta {
     display: inline-block;
-    background: var(--ciano);
+    background: var(--RoxoAnemico);
     color: var(--escuro);
     padding: 16px 40px;
     border-radius: 12px;           /* cantos arredondados */
@@ -95,8 +96,8 @@ nav a:hover {
 }
 
 .card {
-    background: #151526;
-    border: 1px solid var(--roxo);
+    background: #1E151E;
+    border: 1px solid var(--roxoAmeixa);
     border-radius: 12px;
     padding: 16px;
     text-align: center;
@@ -108,7 +109,7 @@ nav a:hover {
 }
 
 .preco {
-    color: var(--verde);
+    color: var(--LilásAcinzentado);
     font-weight: bold;
     font-size: 20px;
 }
@@ -122,8 +123,8 @@ nav a:hover {
 }
 
 .depoimento {
-    background: #151526;
-    border: 1px solid var(--roxo);
+    background: #1E151E;
+    border: 1px solid var(--roxoAmeixa);
     border-radius: 12px;
     padding: 24px;
     text-align: center;
@@ -137,8 +138,8 @@ nav a:hover {
 
 /* ---------- FAQ: estilizando o acordeão nativo ---------- */
 details {
-    background: #151526;
-    border: 1px solid var(--roxo);
+    background: #1E151E;
+    border: 1px solid var(--roxoAmeixa);
     border-radius: 8px;
     padding: 16px 24px;
     margin: 12px 40px;             /* 12px em cima/baixo, 40px nos lados */
@@ -151,12 +152,12 @@ summary {
 
 details p {
     margin-top: 12px;
-    color: var(--verde);
+    color: var(--LilásAcinzentado);
 }
 
 /* ---------- FOOTER + NEWSLETTER ---------- */
 footer {
-    border-top: 2px solid var(--roxo);
+    border-top: 2px solid var(--roxoAmeixa);
     padding: 40px;
     text-align: center;
 }
@@ -170,7 +171,7 @@ footer {
 
 .newsletter button {
     padding: 12px 24px;
-    background: var(--verde);
+    background: var(--LilásAcinzentado);
     color: var(--escuro);
     border: none;
     border-radius: 8px;
@@ -180,7 +181,7 @@ footer {
 
 .copyright {
     margin-top: 24px;
-    color: #8894a8;
+    color: #D8DCD6;
     font-size: 14px;
 }
 
