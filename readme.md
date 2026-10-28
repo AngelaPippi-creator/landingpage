@@ -6,10 +6,10 @@ Landing page desenvolvida como exemplo didático para a disciplina de
 O projeto demonstra a **anatomia de uma landing page** construída apenas
 com HTML5 e CSS3, sem frameworks e sem JavaScript.
 
-## 🚀 Demonstração
+## ·☽𖤓☾·Demonstração
 
 O site está publicado no GitHub Pages:
-**[https://laraoberderfer.github.io/landingpage_greennest/](https://laraoberderfer.github.io/landingpage_greennest/)**
+**[file:///C:/Users/%C3%82ngela/Downloads/landingpage-main%20(1)/landingpage-main/index.html#produtos/]( https://AngelaPippi.github.io/landingpage_GothLife/)**
 
 ## 📁 Estrutura do projeto
 -- index.html
